@@ -30,7 +30,7 @@ body {
     padding: 5px 12px;
     top: 50%;
     left: 50%;
-    width: 408px;
+    width: 77%;
     height: 42px;
     outline: none;
     color: black;
@@ -64,14 +64,15 @@ body {
     padding: 5px 12px;
     top: 50%;
     left: 50%;
-    width: 408px;
+    width: 77%;
     height: 42px;
     outline: none;
     font-weight: bold;
     font-family: sans-serif;
     color: white;
     border-radius: 15px;
-    cursor: pointer
+    cursor: pointer;
+    resize: vertical;
 }
 
 .box input[type="submit"]:hover {
@@ -79,14 +80,14 @@ body {
 }
 
 @media all and (max-width: 1000px) {
-    .col, .row, input[type=submit] {
+    .col, .box, .row, input[type=submit] {
        width: 100%;
     }
   }
-    
-  @media all and (max-width: 670px) {
-    .col, .row, input[type=submit] {
-      width: 100%;
+
+@media all and (max-width: 670px) {
+    .col, .box, .row, input[type=submit] {
+      width: 70%;
     }
   }
 
