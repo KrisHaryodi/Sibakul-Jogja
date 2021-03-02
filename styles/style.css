@@ -78,7 +78,95 @@ body {
 .box input[type="submit"]:hover {
     background: #26ad5f
 }
+/* register page */
+aside{
+    float: right;
+    width: 58%;
+    margin-top: 20px;
+    padding-right: 150px;
+    border: none;
+}
 
+.form header{
+    padding:20px 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=date], input[type=password], select {
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid #29C583;
+    border-radius: 15px;
+    resize: vertical;
+}
+
+label{
+    padding: 10px 12px 10px 0;
+    display: inline-block;
+    font-weight: 700;
+}
+
+input[type=submit]{
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    background: #29C583;
+    padding: 5px 12px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 42px;
+    outline: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    resize: vertical;
+}
+
+input[type=submit]:hover{
+    background: #26ad5f
+}
+
+.col-25{
+    width: 25%;
+}
+
+.col-75{
+    width: 75%;
+}
+
+/*.dot {
+    height: 750px;
+    width: 750px;
+    background-color: #29C583;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -220px;
+    margin-top: -240px;
+}
+
+.dot2 {
+    width: 15%;
+    padding: 25px 20px;
+    margin-left: 80px;
+    margin-top: -500px;
+    background-color: black;
+    border-color: black;
+    border-radius: 15px;
+    display: inline-block;  
+}
+
+div#content{
+    padding: 20px 15px;
+    float: left;
+    width: 42%;
+}
+*/
 @media all and (max-width: 1000px) {
     .col, .box, .row, input[type=submit] {
        width: 100%;

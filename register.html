@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title> Register Si Bakul</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="assets/image 10.png" type="image/x-icon">
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="frontend/scripts/function.js"></script>
+    </head>
+    <body>
+        <main>
+            <aside>
+                <article class="form">
+                    <header>
+                        <h3>Lengkapi seluruh formulir berikut ya.</h2>
+                    </header>
+                    <div class="container">
+                        <form>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="nik">NIK </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="nik" name="nik" placeholder="Masukkan NIK-mu">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="email">Email </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="email" name="email" placeholder="Masukkan email-mu">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="pass">Kata Sandi </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="password" id="pass" name="password" placeholder="Masukkan kata sandi-mu">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="conf">Konfirmasi Kata Sandi </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="password" id="conf" name="confirm pass" placeholder="Masukkan kembali kata sandi-mu">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="fname">Nama Lengkap </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="fname" name="fullname" placeholder="Masukkan nama lengkap-mu">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="tel">Tempat Lahir </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="tel" name="tempat lahir" placeholder="Masukkan tempat lahir-mu">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="tl">Tanggal Lahir </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="date" id="tl" name="tanggallahir" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="jk">Jenis Kelamin </label>
+                                </div>
+                                <div class="col-75">
+                                    <select id="jk" name="jeniskelamin" required>
+                                        <option value="" disable selected hidden>Pilih jenis kelaminmu </option>
+                                        <option value="Laki-laki">Laki-laki</option>
+                                        <option value="Perempuan">Perempuan</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="hp">Nomor HP/WhatsApp </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="hp" name="nomorhp" placeholder="Masukkan nomor HP/WhatsApp-mu">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="aktp">Alamat KTP </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="aktp" name="alamatktp" placeholder="Masukkan alamat KTP-mu">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="ados">Alamat Domisili </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="ados" name="alamatdomisili" placeholder="Masukkan alamat domisili-mu">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="pend">Pendidikan </label>
+                                </div>
+                                <div class="col-75">
+                                    <select id="pend" name="pendidikan" required> 
+                                        <option value="" disabled selected hidden>Pilih pendidikan terakhir-mu</option>
+                                        <option value="Tidak ada">Tidak ada</option>
+                                        <option value="SD">SD</option>
+                                        <option value="SMP">SMP</option>
+                                        <option value="SMA">SMA</option>
+                                        <option value="Diploma">Diploma</option>
+                                        <option value="S1">S1</option>
+                                        <option value="S2">S2</option>
+                                        <option value="S3">S3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="disb">Disabilitas </label>
+                                </div>
+                                <div class="col-75">
+                                    <select id="disb" name="disabilitas" required> 
+                                        <option value="" disabled selected hidden>Apakah kamu memiliki disabilitas?</option>
+                                        <option value="Tidak ada">Tidak ada</option>
+                                        <option value="Tunarungu">Tunarungu</option>
+                                        <option value="Tunawicara">Tunawicara</option>
+                                        <option value="Tunadaksa">Tunadaksa</option>
+                                        <option value="Tunalaras">Tunalaras</option>
+                                        <option value="Tunagrahita">Tunagrahita</option>
+                                        <option value="Tunaganda">Tunaganda</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <input type="submit" value="Daftar">
+                            </div>
+                        </form>
+                    </div>
+                </article>
+            </aside>
+            <div id="content">
+                <span class="dot"></span>
+            </div>
+            <div>
+                <span class="dot2"></span>
+            </div>
+        </main>
+    </body>
+</html>
