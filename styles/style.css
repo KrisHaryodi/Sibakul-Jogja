@@ -37,6 +37,20 @@ body {
     border-radius: 15px;
     resize: vertical;
 }
+
+.dot3 {
+    color: transparent;
+    padding: 10px 150px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    
+}
+
+.brand{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
 .box img {
     padding-bottom: 20px;
     top: 50%;
@@ -85,6 +99,7 @@ aside{
     margin-top: 20px;
     padding-right: 150px;
     border: none;
+    display: block;
 }
 
 .form header{
@@ -146,19 +161,21 @@ input[type=submit]:hover{
     background-color: #29C583;
     border-radius: 50%;
     display: block;
+    position: fixed;
     margin-left: -220px;
     margin-top: -280px;
 }
 
 .dot2 {
     width: 300px;
-    padding: 25px 20px;
+    padding: 28px 20px;
     margin-left: 80px;
-    margin-top: -420px;
+    margin-top: 120px;
     background-color: white;
-    border-color: black;
+    border: 2px solid #29C583;
     border-radius: 25px; 
     display: block;
+    position: fixed;
     float: left;
 }
 
@@ -168,14 +185,14 @@ div#content{
     width: 42%;
 }
 
-@media all and (max-width: 1000px) {
-    .col, .box, .row, input[type=submit] {
+@media screen and (max-width: 1000px) {
+    .col, .box, .row, input[type=submit], .dot {
        width: 100%;
     }
   }
 
-@media all and (max-width: 670px) {
-    .col, .box, .row, input[type=submit] {
+@media screen and (max-width: 670px) {
+    .col, .box, .row, input[type=submit], .dot {
       width: 70%;
     }
   }
