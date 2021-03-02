@@ -140,25 +140,26 @@ input[type=submit]:hover{
     width: 75%;
 }
 
-/*.dot {
+.dot {
     height: 750px;
-    width: 750px;
+    width: 780px;
     background-color: #29C583;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
     margin-left: -220px;
-    margin-top: -240px;
+    margin-top: -280px;
 }
 
 .dot2 {
-    width: 15%;
+    width: 300px;
     padding: 25px 20px;
     margin-left: 80px;
-    margin-top: -500px;
-    background-color: black;
+    margin-top: -420px;
+    background-color: white;
     border-color: black;
-    border-radius: 15px;
-    display: inline-block;  
+    border-radius: 25px; 
+    display: block;
+    float: left;
 }
 
 div#content{
@@ -166,7 +167,7 @@ div#content{
     float: left;
     width: 42%;
 }
-*/
+
 @media all and (max-width: 1000px) {
     .col, .box, .row, input[type=submit] {
        width: 100%;
