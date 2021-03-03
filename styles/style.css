@@ -159,22 +159,45 @@ input[type=submit]:hover{
     border-radius: 50%;
     display: block;
     position: fixed;
-    margin-left: -220px;
+    margin-left: -210px;
     margin-top: -280px;
 }
 
 .dot2 {
     width: 300px;
-    padding: 28px 20px;
-    margin-left: 80px;
-    margin-top: 120px;
+    padding: 5px 10px;
+    margin-left: 90px;
+    margin-top: 65px;
     background-color: white;
     border: 2px solid #29C583;
-    border-radius: 25px; 
+    border-radius: 35px; 
     display: block;
     position: fixed;
     float: left;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #335849;
 }
+
+#content a {
+    display: block;
+    position: fixed;
+    margin-left: 90px;
+    margin-top: 175px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+}
+#content i{
+    display: block;
+    position: fixed;
+    margin-left: 140px;
+    margin-top: 215px;
+    color: white;
+    
+}
+
 
 div#content{
     padding: 20px 15px;
