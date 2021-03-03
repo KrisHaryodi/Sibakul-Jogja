@@ -192,12 +192,21 @@ input[type=submit]:hover{
 #content i{
     display: block;
     position: fixed;
-    margin-left: 140px;
+    margin-left: 135px;
     margin-top: 215px;
     color: white;
-    
 }
 
+#content p{
+    display: block;
+    position: fixed;
+    margin-left: 135px;
+    margin-top: 210px;
+    color: white;
+    padding-left: 25px;
+    font-size: 18px;
+    
+}
 
 div#content{
     padding: 20px 15px;
