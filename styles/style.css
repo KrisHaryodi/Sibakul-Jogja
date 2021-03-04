@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -45,8 +49,6 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.322);
     
 }
-
-
 
 .box img {
     padding-bottom: 0px;
@@ -101,10 +103,6 @@ aside{
 
 .form header{
     padding:20px 0px;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 input[type=text], input[type=date], input[type=password], select {
@@ -205,13 +203,50 @@ input[type=submit]:hover{
     color: white;
     padding-left: 25px;
     font-size: 18px;
-    
 }
 
 div#content{
     padding: 20px 15px;
     float: left;
     width: 42%;
+}
+
+/* Sidebar Dashboard*/
+.nav{
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    background: #29C583;
+    transition: 0.5s;
+    border-radius: 0px 35px 0px 0px;
+}
+
+.nav ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.nav ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.nav ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.nav ul li a:hover{
+    color: white;
 }
 
 @media screen and (max-width: 1000px) {
